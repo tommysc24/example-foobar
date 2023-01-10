@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: ruby:2.4
         environment:
-          CODECLIMATE_REPO_TOKEN: "dc868bc2a2cc797be5d1c41badf4c88fd59356d2127a7c7cd48837abd874efab"
+          CODECLIMATE_REPO_TOKEN: "3c3525e49811cf51edc399df1c897f531dd2aef6c8d934431b6f7e52e90052e4"
     steps:
       - checkout
       - type: cache-restore
